@@ -1,0 +1,1 @@
+import{i as r}from"./q-C6cM-dqe.js";import{m as p}from"./q-C6cM-dqe.js";const a=()=>{const[e,s]=r();s.calculateProgress(e.value).then(o=>{s.totalProgress.value=o})};export{p as _hW,a as s_zV9fWRpxuTI};

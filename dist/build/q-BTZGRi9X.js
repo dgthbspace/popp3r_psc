@@ -1,0 +1,1 @@
+import{i as s}from"./q-C6cM-dqe.js";import{m as n}from"./q-C6cM-dqe.js";const l=async()=>{const[t,e]=s();e.sectionCompletion.value=await Promise.all(t.value.map(a=>e.calculateProgress([a]).then(o=>Math.round(o.completed/o.outOf*100))))};export{n as _hW,l as s_Tdst0U6RIUg};

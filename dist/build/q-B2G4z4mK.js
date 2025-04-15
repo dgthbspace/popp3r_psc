@@ -1,0 +1,1 @@
+import{i}from"./q-C6cM-dqe.js";import{m as p}from"./q-C6cM-dqe.js";const h=()=>{const[a,c,e]=i(),s=c.value.toLowerCase();if(s.trim()===""){e.value=[];return}const t=[];a.value.forEach(r=>{const o=r.checklist.filter(l=>l.point.toLowerCase().includes(s));o.length>0&&t.push({...r,checklist:o})}),e.value=t};export{p as _hW,h as s_zraeWD8Jy8U};

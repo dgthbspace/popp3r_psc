@@ -1,0 +1,1 @@
+import{i as l}from"./q-C6cM-dqe.js";import{m as h}from"./q-C6cM-dqe.js";const r=async()=>{const[t,a,s,c,o]=l();a.value=await Promise.all(o.sections.map(e=>c(e))),s.value=await Promise.all(o.sections.map(e=>e.checklist.filter(i=>t.value[i.point.toLowerCase().replace(/ /g,"-")]).length))};export{h as _hW,r as s_cSiWdBS7mt4};

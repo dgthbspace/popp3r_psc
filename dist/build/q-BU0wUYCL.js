@@ -1,0 +1,1 @@
+import{i}from"./q-C6cM-dqe.js";import{m as d}from"./q-C6cM-dqe.js";const g=(e,r)=>{const[s,t,o]=i();o.filterByPriority(s.value,e).then(c=>{o.calculateProgress(c).then(a=>{const{completed:n,outOf:l}=a,p=Math.round(n/l*100);t.drawProgress(p,`#${e}-container`,r)})})};export{d as _hW,g as s_u50Rpyk6Kg8};

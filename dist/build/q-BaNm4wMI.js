@@ -1,0 +1,1 @@
+import{i as m}from"./q-C6cM-dqe.js";import{m as n}from"./q-C6cM-dqe.js";import{d as s}from"./q-A807C0lQ.js";import"./q-2LWRYvkK.js";import"./q-d4AE8ITg.js";const c=()=>{const[t,o]=m(),e=o.value||s;t.theme=e,document.getElementsByTagName("body")[0].setAttribute("data-theme",e)};export{n as _hW,c as s_7RJv1KE0o7E};

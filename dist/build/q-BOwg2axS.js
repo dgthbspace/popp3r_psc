@@ -1,0 +1,1 @@
+import{i as a}from"./q-C6cM-dqe.js";import{m as u}from"./q-C6cM-dqe.js";const s=()=>{const[l,r,c]=a();return r.value.flatMap(e=>e.checklist.filter(o=>!l.value[o.point.toLowerCase().replace(/ /g,"-")]&&!c.value[o.point.toLowerCase().replace(/ /g,"-")]).map(o=>({item:o,icon:e.icon,color:e.color,sectionSlug:e.slug})))};export{u as _hW,s as s_C7lh7bOUpzY};

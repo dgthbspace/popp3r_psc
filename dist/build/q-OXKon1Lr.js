@@ -1,0 +1,1 @@
+import{m as a}from"./q-C6cM-dqe.js";const e=()=>{confirm("Are you sure you want to delete all local data? This will erase your progress.")&&(localStorage.clear(),location.reload())};export{a as _hW,e as s_sBVjXl0bKZc};

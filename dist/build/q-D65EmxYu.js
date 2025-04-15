@@ -1,0 +1,1 @@
+import{i as o}from"./q-C6cM-dqe.js";import{m as h}from"./q-C6cM-dqe.js";const l=()=>{const[e,a,s]=o();s.calculateProgress(e.value).then(r=>{s.totalProgress.value=r}),a("essential","hsl(var(--su, 158 64% 52%))"),a("optional","hsl(var(--wa, 43 96% 56%))"),a("advanced","hsl(var(--er, 0 91% 71%))")};export{h as _hW,l as s_1UGno8I5ND8};

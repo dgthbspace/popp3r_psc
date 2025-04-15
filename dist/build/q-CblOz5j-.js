@@ -1,0 +1,1 @@
+import{i as s}from"./q-C6cM-dqe.js";import{m as i}from"./q-C6cM-dqe.js";const m=t=>{const[e,o]=s();e(t),o.theme=t,document.getElementsByTagName("body")[0].setAttribute("data-theme",t)};export{i as _hW,m as s_iXhD0AqoAtc};

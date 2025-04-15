@@ -1,0 +1,1 @@
+import{i as c}from"./q-C6cM-dqe.js";import{m as p}from"./q-C6cM-dqe.js";const m=({track:o})=>{const[t]=c();o(()=>t),Object.keys(t).forEach(s=>{const e=document.getElementById(`details-${s}`);e&&(t[s]?e.style.maxHeight=`${e.scrollHeight}px`:e.style.maxHeight="0px")})};export{p as _hW,m as s_FCwpMkG4q1E};

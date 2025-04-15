@@ -1,0 +1,1 @@
+import{i as a}from"./q-C6cM-dqe.js";import{m as p}from"./q-C6cM-dqe.js";const i=async t=>{const[s,l]=a(),o=e=>e.point.toLowerCase().replace(/ /g,"-"),c=t.checklist.filter(e=>!l.value[o(e)]).length,r=t.checklist.filter(e=>s.value[o(e)]).length;return c>0?Math.round(r/c*100):0};export{p as _hW,i as s_l009A13Say0};

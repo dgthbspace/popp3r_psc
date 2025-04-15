@@ -1,0 +1,1 @@
+import{i as s}from"./q-C6cM-dqe.js";import{m as f}from"./q-C6cM-dqe.js";const n=o=>{const[e,t]=s();try{t.value=o,typeof window<"u"&&window.localStorage.setItem(e,JSON.stringify(o))}catch(r){console.log(r)}};export{f as _hW,n as s_YA1PxnWXCFk};

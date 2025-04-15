@@ -1,0 +1,1 @@
+import{i as o}from"./q-C6cM-dqe.js";import{m as n}from"./q-C6cM-dqe.js";const c=async()=>{const[t,e,a]=o();e.value=!0;const s=await t();s.length===0?a.value=[]:a.value=s.sort(()=>.5-Math.random()).slice(0,9),setTimeout(()=>{e.value=!1},1e3)};export{n as _hW,c as s_CarLQcPmlEU};

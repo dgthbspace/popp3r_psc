@@ -1,0 +1,1 @@
+import{i as c}from"./q-C6cM-dqe.js";import{m as i}from"./q-C6cM-dqe.js";const s=()=>{const[t,e]=c();Promise.all(t.value.map(o=>e.calculateProgress([o]))).then(o=>{e.sectionCompletion.value=o.map(a=>Math.round(a.completed/a.outOf*100))})};export{i as _hW,s as s_aUJLK1VhOQU};

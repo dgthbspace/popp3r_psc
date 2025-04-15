@@ -1,0 +1,1 @@
+const o=async()=>{const t=await fetch("https://api.github.com/repos/lissy93/personal-security-checklist/contributors?per_page=100");if(!t.ok)throw new Error("Failed to fetch contributors");return await t.json()};export{o as s_zGA04lmtI8I};

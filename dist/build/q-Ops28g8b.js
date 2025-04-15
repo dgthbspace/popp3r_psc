@@ -1,0 +1,1 @@
+import{_ as o}from"./q-2LWRYvkK.js";import{c as r,q as s}from"./q-C6cM-dqe.js";const e="https://awesome-privacy.xyz",a=r(s(()=>o(()=>import("./q-OtU7QJpq.js"),[]),"s_eQVUlXbwDJM"));export{a as C,e as P};

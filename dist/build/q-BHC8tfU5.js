@@ -1,0 +1,1 @@
+import{m as l}from"./q-C6cM-dqe.js";const s=(o,t)=>{const e=r=>r.toLowerCase().replace(/ /g,"-");return o.map(r=>({...r,checklist:r.checklist.filter(c=>e(c.priority)===e(t))}))};export{l as _hW,s as s_gF57oVorRjI};

@@ -1,0 +1,1 @@
+import{i as o}from"./q-C6cM-dqe.js";import{m as i}from"./q-C6cM-dqe.js";const t=s=>{const[e]=o();e.column===s?e.ascending=!e.ascending:(e.column=s,e.ascending=!0)};export{i as _hW,t as s_j0K9HBl2CWE};
