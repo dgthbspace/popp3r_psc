@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.cdnfonts.com/css/baron-neue');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+p,
+a,
+li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+}
+
+span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+}
+
+.summary {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.summary:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-link {
+  color: #9b2a2a;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #d93025;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.max-height-transition {
+  transition: max-height 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background-color: #2bbb2f;
+}
+
+input:checked+.slider:before {
+  transform: translateX(14px);
+}
+
+input:disabled+.slider {
+  background-color: #e5e5e5;
+  cursor: not-allowed;
+}
+
+input:disabled+.slider:before {
+  background-color: #bdbdbd;
+}
+
+.toggle-success+.slider {
+  background-color: #4CAF50;
+}
+
+.toggle-error+.slider {
+  background-color: #F44336;
+}

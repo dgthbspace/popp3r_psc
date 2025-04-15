@@ -1,0 +1,24 @@
+
+.container {
+  /* I couldn't figure out how to do this with Tailwind.... */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.checklistItemDescription {
+  a {
+    text-decoration: underline;
+  }
+}
+
+
+.bg-optional {
+  background-color: #ffdd57;
+}
+
+.bg-essential {
+  background-color: #4caf50;
+}
+
+.bg-advanced {
+  background-color: #ff6f61;
+}

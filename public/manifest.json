@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "popp3r-security-checklist",
+  "short_name": "Popp3r Security Checklist",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#5616c6",
+  "description": "Popp3r Security Checklist, your guide to securing your digital life and protecting your privacy"
+}
